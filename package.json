@@ -10,18 +10,18 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve src",
-    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build src"
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/owenconti/netlify-express.git"
+    "url": "git+https://github.com/webito/netlify-express"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/owenconti/netlify-express/issues"
+    "url": "https://github.com/webito/netlify-express"
   },
-  "homepage": "https://github.com/owenconti/netlify-express#readme"
+  "homepage": "https://github.com/webito/netlify-express#readme"
 }
